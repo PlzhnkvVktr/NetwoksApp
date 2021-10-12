@@ -1,0 +1,51 @@
+.mainMain{
+    flex-direction: column;
+    padding-top: 40px;
+}
+.title{
+    margin: 30px auto 30px;
+    text-align: center;
+}
+.fig{
+    text-align: center;
+}
+.mw100{
+    max-width: 100%;
+}
+.advantages_container{
+    display: flex;
+    justify-content: center;
+}
+.advantages{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.advantages_item{
+    width: 20%;
+}
+.advantages_title{
+    white-space: nowrap;
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .advantages_item{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .advantages{
+        flex-direction: column;
+    }
+    .advantages_item{
+        width: 100%;
+    }
+}

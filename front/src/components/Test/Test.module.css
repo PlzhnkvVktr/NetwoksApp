@@ -1,0 +1,113 @@
+.mainTest{
+    flex-direction: column;
+    padding-top: 40px;
+}
+.test{
+    background: #252d4a;
+    min-width: 330px;
+    max-width: 500px;
+    min-height: 200px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 50px auto;
+    display: flex;
+    box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+}
+.quizz{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.question_selection{
+    flex: 0 0 50%;
+}
+.question_count{
+    margin-bottom: 20px;
+    color:#fff;
+}
+.question_count span{
+    font-size: 28px;
+}
+.question_text{
+    margin-bottom: 15px;
+    color:#fff;
+}
+.answer_section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+button{
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #252d4a;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #234668;
+    margin: 5px 0;
+    outline: none;
+}
+
+button:hover{
+    background: #234668;
+    transition: all 0.3 ease;
+}
+.result{
+    color:white;
+}
+
+.section_score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 24px;
+    width: 100%;
+}
+.refresh_btn{
+    margin-top: 25px;
+}
+
+
+
+.comments{
+    text-align: center;
+}
+.div{
+    margin-top: 20px;
+}
+.feedbackInput{
+    color: #000;
+    font-size: 14px;
+    line-height: 22px;
+    background-color: #fff;
+    padding: 13px;
+    margin-bottom: 10px;
+    max-width: 400px;
+    box-sizing: border-box;
+    border: 0px solid transparent;
+    border-bottom: 1px solid black;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    resize: vertical;
+}
+.buttonAdd{
+    width: 100%;
+    border: 0px solid transparent;
+    cursor: pointer;
+    background-color: #000;
+    color: white;
+    font-size: 18px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    transition: all 0.3s;
+    max-width: 400px;
+    margin-top: -4px;
+    font-weight: 300;
+}

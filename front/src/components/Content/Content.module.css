@@ -1,0 +1,60 @@
+.mainContent{
+    flex-direction: column;
+    padding-top: 40px;
+}
+.title{
+    margin: 30px auto 30px;
+    text-align: center;
+}
+.imgContent{
+    text-align: center;
+}
+.mw100{
+    max-width: 100%;
+}
+
+summary{
+    padding-top: 20px;
+    font-size: 25px;
+}
+/* details{
+    width: 800px;
+} */
+/* p{
+    margin-left: -100px;
+} */
+.items{
+    max-width: 500px;
+    margin: 20px auto;
+}
+.items details p:nth-child(2){
+    margin-top: 20px;
+}
+.item{
+    border: 1px solid black;
+}
+.itemTitle{
+    display: block;
+    padding: 10px 15px;
+    color: black;
+    cursor: pointer;
+}
+.itemTitle:hover{
+    background-color: red;
+}
+
+.itemInput{
+    width: 0;
+    height: 0;
+    appearance: none;
+
+    position: absolute;
+}
+.itemInput:checked + .itemText{
+    display: block;
+}
+.itemText{
+    display: none;
+    font-size: 14px;
+    padding: 10px 15px;
+}
