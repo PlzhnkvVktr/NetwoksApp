@@ -1,0 +1,12 @@
+{
+   "posts" : [
+        {"id": "1", "img": "/images/News/news1.jpg", "title": "Рука куда-то показывает"},
+        {"id": "2", "img": "/images/News/news2.jpg", "title": "Новая лупа"},
+        {"id": "3", "img": "/images/News/news3.jpg", "title": "Палец прикоснулся к экрану"},
+        {"id": "4", "img": "/images/News/news4.jpg", "title": "Индексы пошли вверх"},
+        {"id": "5", "img": "/images/News/news5.jpg", "title": "Свой среди чужих, чужой среди своих"},
+        {"id": "6", "img": "/images/News/news6.jpg", "title": "Как работают нейросети"},
+        {"id": "7", "img": "/images/News/news7.jpg", "title": "Новый отель"},
+        {"id": "8", "img": "/images/News/news8.jpg", "title": "Магнус опять выиграл"}
+    ]
+  }
